@@ -1,15 +1,20 @@
 import React from 'react';
 import './Task.css';
 import Card from "../UI/Card";
+import Due from "./Due";
 
-function Task() {
+function Task(props) {
     return (
-        <div className="task">
-            <div className="Number">1</div>
-            <div className="Deadline">Due</div>
-            <div className="Task">To Do</div>
-            <input type="checkbox" />
-        </div>
+        <li>
+            <Card className="task">
+                <div className="number">{}</div>
+                <div className="details">
+                <Due date={props.due} />
+                <h2>{props.title}</h2>
+                </div>
+                <div className="checkbox"><input type="checkbox" /></div>
+            </Card>
+        </li>
     );
 }
 

@@ -1,0 +1,9 @@
+.task-container {
+    background-color: #ecebe6;
+    width: 80%;
+    margin: 0 auto;
+}
+.task-list {
+    list-style: none;
+    padding: 1rem;
+}

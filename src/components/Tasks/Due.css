@@ -1,0 +1,5 @@
+.task-due {
+    display: flex;
+    gap: 0.5rem;
+    padding-top: 1rem;
+}
