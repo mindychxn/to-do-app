@@ -1,15 +1,18 @@
 .task {
     display: flex;
-    justify-content: space-around;
-    align-content: space-between;
+    justify-content: space-between;
     align-items: center;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 3rem;
     margin: 1rem auto;
-    width: 80%;
+    width: 70%;
     background-color: white;
-    flex: 1;
 }
 
+
+
+.wrapper {
+    display: inline-block;
+}
 .details {
     display: flex;
     flex-direction: column;
@@ -17,12 +20,12 @@
     align-items: center;
 }
 
-
-
+.checkbox {
+    display: inline-block;
+}
 input {
     width: 2rem;
     height: 2rem;
     accent-color: #9CAF88;
-    border-color: white;
 }
 
