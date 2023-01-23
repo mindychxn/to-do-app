@@ -1,5 +1,7 @@
+import "./index.css";
 import TaskList from './components/Tasks/TaskList';
-import "./index.css"
+import EnterTask from './components/NewTask/EnterTask';
+
 
 function App() {
   const tasks = [
@@ -17,6 +19,7 @@ function App() {
     <div className="App">
       <h1 className="title">To Do List</h1>
       <TaskList items={tasks}/>
+      <EnterTask></EnterTask>
     </div>
   );
 }
